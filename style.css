@@ -1,16 +1,80 @@
 .header{
-    background-color: rgb(28, 95, 14);
+    background-color: rgb(0, 0, 0);
+
+
+    width: 100%;
+
 }
 
 h1{
     color:antiquewhite;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 10px;
+    background-color: rgb(131, 39, 39);
+
+
 }
 
 a{
     color:antiquewhite;
+    font-size:x-large;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: */
+
 }
 
 img{
     width: 400px
+}
+
+.frontIntro{
+    display: flex;
+    justify-content: center;
+
+}
+
+.title{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: flex-end;
+}
+
+.body{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+        background-color: rgb(0, 0, 0);
+        height:150px;
+        width: 100%;
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        position: fixed;
+        bottom: 0pt;
+        left: 0pt;
+
+
+}
+
+
+h4{
+    font-size: 30px;
+    color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
 }
