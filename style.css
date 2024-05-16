@@ -1,10 +1,13 @@
 .header{
     background-color: rgb(0, 0, 0);
 
-
     width: 100%;
 
 }
+
+/* *{
+    margin: 0px;
+} */
 
 h1{
     color:antiquewhite;
@@ -13,6 +16,7 @@ h1{
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    margin: 0px
 
 }
 
@@ -35,6 +39,11 @@ a{
     /* flex-direction: */
 
 }
+.externalLink{
+    color:rgb(255, 255, 255);
+    font-size:x-large;
+    padding-left: 40px;
+}
 
 img{
     width: 400px
@@ -43,23 +52,67 @@ img{
 .frontIntro{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 
+}
+
+main{
+    margin-bottom: 150px;
 }
 
 .title{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     align-self: flex-end;
+    padding-left: 35px;
+}
+
+.titleSmall{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: flex-end;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+/*why is this being weird??????????*/
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.portCard{
+    background-color: rgb(128, 127, 127);
+    width:700px;
+    height: 200px;
+
 }
 
 .body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.quote{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
 }
+
+
 
 .footer{
         background-color: rgb(0, 0, 0);
-        height:150px;
+        height:70px;
         width: 100%;
         background-image: none;
         background-repeat: repeat;
@@ -68,13 +121,25 @@ img{
         position: fixed;
         bottom: 0pt;
         left: 0pt;
-
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 
+/*WHY ISNT THIS CENTERING AGAIN */
 
-h4{
-    font-size: 30px;
+.footTitle{
+    font-size: 20px;
     color:antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.footText{
+    font-size: 10px;
+    color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding-top: 5px;
 }
